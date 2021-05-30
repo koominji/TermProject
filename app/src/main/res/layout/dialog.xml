@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    // 반려동물 이름, 나이 정보를 받아올 페이지 디자인
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:fontFamily="@font/font1"
+        android:text="이름은 무엇인가요?"
+        android:textColor="#000000"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/dlgName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:background="#ffffff"
+        android:fontFamily="@font/font1"
+        android:hint="ex. 뽀삐"
+        android:textColorHint="#5A5151"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:fontFamily="@font/font1"
+        android:text="누구와 함께 살고있나요?"
+        android:textColor="#000000"
+        android:textSize="30dp" />
+
+
+    <RadioGroup
+        android:id="@+id/RG1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/dog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font1"
+            android:text="반려견"
+            android:textSize="30dp" />
+
+        <RadioButton
+            android:id="@+id/cat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font1"
+            android:text="반려묘"
+            android:textSize="30dp" />
+
+    </RadioGroup>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:fontFamily="@font/font1"
+        android:text="나이는 몇살인가요?"
+        android:textColor="#000000"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/dlgAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:background="#ffffff"
+        android:fontFamily="@font/font1"
+        android:hint="ex. 5"
+        android:textColorHint="#5A5151"
+        android:textSize="30dp" />
+
+
+</LinearLayout>
